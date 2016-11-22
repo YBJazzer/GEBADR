@@ -40,7 +40,7 @@ A video tutorial is available [here] (https://www.youtube.com/watch?v=pieUZrhfOd
 Now some **manual editing** follows: 
 5. Import ".../GEBADR_OSMstyle_edited.csv" to a spreadsheet (in *Microsoft Excel*: import as text, separate with ";", make sure each column is imported as text, not standard). Check if umlauts and coordinates are correctly displayed. 
 6. Filter the addresses you want to import (with Pivot filter), check whether key:place should be used instead of key:street, and add street:fr (resp. place:fr) if necessary. Save file as ".../GEBADR_selection.csv" (Trennzeichen-getrennt). Check in a text editor if file contains your selection. 
-7. Adjust Script 2, set input path ".../GEBADR_selection.csv" and output path. This script will add quotation marks to all non-coordinate entries, which is the format needed for import. 
+7. Adjust **Script 2**, set input path ".../GEBADR_selection.csv" and output path. This script will add quotation marks to all non-coordinate entries, which is the format needed for import. 
 8. Drag and drop ".../GEBADR_OSMimport.csv" into JOSM. The plug-in *OpenData* must be installed. 
 9. Check whether nodes fit to buildings on aerial imagery. Preferrably, merge building nodes to building polygons using the plug-in *Conflation*. Otherwise, copy address nodes to the data layer using *Ctrl+Shift+M*. If you feel not sure about an address localisation, don't import it. 
 10. Upload your data and cite source in changeset:<br />
