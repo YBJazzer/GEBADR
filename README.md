@@ -46,22 +46,22 @@ Now some manual editing follows:
 7. Adjust Script 2, set input path ".../GEBADR_selection.csv" and output path. This script will add quotation marks to all non-coordinate entries, which is the format needed for import. 
 8. Drag and drop ".../GEBADR_OSMimport.csv" into JOSM. The plug-in OpenData must be installed. 
 9. Check whether nodes fit to buildings on aerial imagery. Preferrably, merge building nodes to building polygons using the plug-in Conflation. Otherwise, copy address nodes to the data layer using Ctrl+Shift+M. If you feel not sure about an address localisation, don't import it. 
-10. Upload your data and cite source in changeset:
-Comment: "Place: Street1, Street2, Street3"
+10. Upload your data and cite source in changeset:<br />
+Comment: "Place: Street1, Street2, Street3"<br />
 Source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern" 
 
 
 ###Step by step instructions (German)
 
-Dies Anleitung beschreibt die Bearbeitung der GEBADR Daten mit Python 3 und dem Tabellenkalkulationsprogramm Microsoft Excel. MS Excel speichert Tabellen im .csv Format mit ";" als Delimiter. Das Import Plug-in OpenData benötigt ebenfalls ";" als Delimiter. Beachte dies (und korrigiere im Script) falls ein anderes Tabellenkalkulationsprogramm (z.B. Appache OpenOffice Calc) verwendet wird. 
-Benötigt werden: Python 3 (um die Scripts mit IDLE laufen zu lassen), ein Texteditor (z.B. Notepad++) und ein Tabellenkalkulationsprogramm (z.B. Microsoft Excel). 
+Dies Anleitung beschreibt die Bearbeitung der GEBADR Daten mit Python 3 und dem Tabellenkalkulationsprogramm Microsoft Excel. MS Excel speichert Tabellen im .csv Format mit ";" als Delimiter. Das Import Plug-in OpenData benötigt ebenfalls ";" als Delimiter. Beachte dies (und korrigiere im Script) falls ein anderes Tabellenkalkulationsprogramm (z.B. Appache OpenOffice Calc) verwendet wird.<br />
+Benötigt werden: Python 3 (um die Scripts mit IDLE laufen zu lassen), ein Texteditor (z.B. Notepad++) und ein Tabellenkalkulationsprogramm (z.B. Microsoft Excel).<br />
 Ein Videotutorial findet sich [hier] (https://www.youtube.com/watch?v=pieUZrhfOdc&feature=youtu.be). 
 
 1. Runterladen und entzippen der GEBADR.zip Datei. 
 2. Öffne "...GEBADR/GEBADR/LV95/data/GEBADR_GADR.dbf" im Tabellenkalkulationsprogramm. 
 3. Speichere als ".../GEBADR_GADR.csv" (MS-DOS) - Dies ist notwendig für die korrekte Darstellung von Umlauten und französischen Buchstaben, überprüfe im Texteditor die korrekte Schreibweise. 
 4. Passe in Script 1 den input-Pfad ( ".../GEBADR_GADR.csv") und die output-Pfade an. Lasse das Script laufen. Es werden drei Dateien erstellt, welche weiter oben beschrieben sind. 
-Jetzt folgt etwas manuelle Bearbeitung: 
+Jetzt folgt etwas manuelle Bearbeitung:
 5. Importiere ".../GEBADR_OSMstyle_edited.csv" ins Tabellenkalkulationsprogramm (in MS Excel: importiere als Text, trenne mit ";", und stelle sicher dass sämtliche Spalten als Text importiert werden). Überprüfe die korrekte Darstellung der Einträge. 
 6. Filtere die Adressen, welche du importieren möchtest (mit dem Pivot-Filter), überprüfe ob key:place besser passt als key:street und korrigiere gegebenenfalls. Falls vorhanden, schreibe die französischen Strassennamen in die Spalte street:fr. Speichere die Datei als ".../GEBADR_selection.csv" (Trennzeichen-getrennt). Überprüfe im Texteditor, ob deine Auswahl wie gewünscht gezeigt wird. 
 7. Passe in Script 2 den input-Pfad ( ".../GEBADR_selection.csv") und den ouput-Pfad an. Das Script schreibt Anführungszeichen zu allen nicht-Koordinateneinträgen. Dies ist die richtige Darstellung für den Import. 
