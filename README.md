@@ -6,8 +6,7 @@ This document describes the workflow of how to import the GEBADR list from the c
 Wiki.openstreetmap entry: http://wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_Import<br />
 Video tutorial: https://www.youtube.com/watch?v=pieUZrhfOdc&feature=youtu.be<br />
 
-by Stefan Berger (User:YBJazzer)
-
+by Stefan Berger (User:YBJazzer)<br />
 22.11.2016
 
 
@@ -26,18 +25,15 @@ The created GEBADR_OSMimport.csv file can be easily imported to JOSM by the plug
 
 ###Changeset Tags
 
-
-The changeset tags should contain the following information:
-
-Comment: "City: Street1 or Place1, Street2/Place2, ..."; e.g. "Bern: Ostring, Papiermühlestrasse, Pappelweg"
-
+The changeset tags should contain the following information:<br />
+Comment: "City: Street1 or Place1, Street2/Place2, ..."; e.g. "Bern: Ostring, Papiermühlestrasse, Pappelweg"<br />
 Source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern" 
 
 
 ###Step by step instructions (English)
 
-This instruction describes the edit of GEBADR data with Python 3 and Microsoft Excel spreadsheet. MS Excel will save .csv files with ";" as delimiter in German versions. The import plug-in OpenData will also use ";" as delimiter. Keep this in mind (and correct it in the scripts) when using another spreadsheet (e.g. Appache OpenOffice Calc). 
-You need: Python 3 (to run the scripts with IDLE), a text editor (e.g. Notepad++) and a spreadsheet (e.g. Microsoft Excel). 
+This instruction describes the edit of GEBADR data with Python 3 and Microsoft Excel spreadsheet. MS Excel will save .csv files with ";" as delimiter in German versions. The import plug-in OpenData will also use ";" as delimiter. Keep this in mind (and correct it in the scripts) when using another spreadsheet (e.g. Appache OpenOffice Calc).<br />
+You need: Python 3 (to run the scripts with IDLE), a text editor (e.g. Notepad++) and a spreadsheet (e.g. Microsoft Excel).<br />
 A video tutorial is available [here] (https://www.youtube.com/watch?v=pieUZrhfOdc&feature=youtu.be). 
 
 1. Download and unzip GEBADR.zip file. 
@@ -51,9 +47,7 @@ Now some manual editing follows:
 8. Drag and drop ".../GEBADR_OSMimport.csv" into JOSM. The plug-in OpenData must be installed. 
 9. Check whether nodes fit to buildings on aerial imagery. Preferrably, merge building nodes to building polygons using the plug-in Conflation. Otherwise, copy address nodes to the data layer using Ctrl+Shift+M. If you feel not sure about an address localisation, don't import it. 
 10. Upload your data and cite source in changeset:
-
 Comment: "Place: Street1, Street2, Street3"
-
 Source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern" 
 
 
@@ -73,8 +67,6 @@ Jetzt folgt etwas manuelle Bearbeitung:
 7. Passe in Script 2 den input-Pfad ( ".../GEBADR_selection.csv") und den ouput-Pfad an. Das Script schreibt Anführungszeichen zu allen nicht-Koordinateneinträgen. Dies ist die richtige Darstellung für den Import. 
 8. Klicke und ziehe die Datei ".../GEBADR_OSMimport.csv" in JOSM. Das Plug-in OpenData muss installiert sein. 
 9. Überprüfe ob die Gebäude-/Adresspunkte mit den Luftbildern übereinstimmen. Übertrage die Gebäude-/Adresspunkte auf die Gebäudeumrisse mittels Conflation Plug-in. Sofern kein Gebäudeumriss vorhanden ist, kopiere den Gebäude-/Adresspunkt mittels Ctrl+Shift+M in die Datenebene. Falls du dir über eine Adresse unsicher bist, importiere sie im Zweifelsfall nicht. 
-10. Lade die Änderungen hoch und schreibe im Changeset:
-
-Kommentar: "Ort: Strasse1, Strasse2, Strasse3"
-
-Quelle: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern"
+10. Lade die Änderungen hoch und schreibe im Changeset:<br />
+    Kommentar: "Ort: Strasse1, Strasse2, Strasse3"<br />
+    Quelle: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern"
