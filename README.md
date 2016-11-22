@@ -1,7 +1,10 @@
 This document describes the workflow of how to import the GEBADR list from the canton of Bern into OpenStreetMap in JOSM. The instruction is copied from the wiki.openstreetmap.org entry. A video tutorial is also available.
 Wiki.openstreetmap entry: http://wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_Import
+
 Video tutorial: https://www.youtube.com/watch?v=pieUZrhfOdc&feature=youtu.be
+
 by Stefan Berger (User:YBJazzer)
+
 22.11.2016
 
 
