@@ -1,3 +1,4 @@
+
 #Canton of Bern Address Import
 
 This document describes the workflow of how to import the GEBADR list from the canton of Bern into OpenStreetMap in JOSM. The instruction is copied from the wiki.openstreetmap.org entry. A video tutorial is also available.
@@ -26,7 +27,9 @@ The created GEBADR_OSMimport.csv file can be easily imported to JOSM by the plug
 ###Changeset Tags
 
 The changeset tags should contain the following information:
+
 Comment: "City: Street1 or Place1, Street2/Place2, ..."; e.g. "Bern: Ostring, Papiermühlestrasse, Pappelweg"
+
 Source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern" 
 
 
@@ -46,8 +49,10 @@ Now some manual editing follows:
 7. Adjust Script 2, set input path ".../GEBADR_selection.csv" and output path. This script will add quotation marks to all non-coordinate entries, which is the format needed for import. 
 8. Drag and drop ".../GEBADR_OSMimport.csv" into JOSM. The plug-in OpenData must be installed. 
 9. Check whether nodes fit to buildings on aerial imagery. Preferrably, merge building nodes to building polygons using the plug-in Conflation. Otherwise, copy address nodes to the data layer using Ctrl+Shift+M. If you feel not sure about an address localisation, don't import it. 
-10. Upload your data and cite source in changeset: 
-Comment: "Place: Street1, Street2, Street3" 
+10. Upload your data and cite source in changeset:
+
+Comment: "Place: Street1, Street2, Street3"
+
 Source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern" 
 
 
@@ -67,6 +72,8 @@ Jetzt folgt etwas manuelle Bearbeitung:
 7. Passe in Script 2 den input-Pfad ( ".../GEBADR_selection.csv") und den ouput-Pfad an. Das Script schreibt Anführungszeichen zu allen nicht-Koordinateneinträgen. Dies ist die richtige Darstellung für den Import. 
 8. Klicke und ziehe die Datei ".../GEBADR_OSMimport.csv" in JOSM. Das Plug-in OpenData muss installiert sein. 
 9. Überprüfe ob die Gebäude-/Adresspunkte mit den Luftbildern übereinstimmen. Übertrage die Gebäude-/Adresspunkte auf die Gebäudeumrisse mittels Conflation Plug-in. Sofern kein Gebäudeumriss vorhanden ist, kopiere den Gebäude-/Adresspunkt mittels Ctrl+Shift+M in die Datenebene. Falls du dir über eine Adresse unsicher bist, importiere sie im Zweifelsfall nicht. 
-10. Lade die Änderungen hoch und schreibe im Changeset: 
-Kommentar: "Ort: Strasse1, Strasse2, Strasse3" 
+10. Lade die Änderungen hoch und schreibe im Changeset:
+
+Kommentar: "Ort: Strasse1, Strasse2, Strasse3"
+
 Quelle: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern"
