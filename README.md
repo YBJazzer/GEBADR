@@ -9,7 +9,7 @@ by Stefan Berger (User:YBJazzer)<br />
 
 
 ###Data Transformation
-First, the data file in .dbf format is opened in a spreadsheet (e. g. Microsoft Excel) and saved as .csv file. Data are edited with two Python 3 scripts: 
+First, the data file in .dbf format is opened in a spreadsheet (e. g. *Microsoft Excel*) and saved as .csv file. Data are edited with two Python 3 scripts: 
 
 - **Script 1** (before manual editing) creates three consecutive files: 
 GEBADR_WGS84.csv - Reduces GEBADR list and adds WGS84 coordinates (calculated from Swiss coordinates LV95). 
