@@ -1,4 +1,5 @@
 
+
 #Canton of Bern Address Import
 
 This document describes the workflow of how to import the GEBADR list from the canton of Bern into OpenStreetMap in JOSM. The instruction is copied from the wiki.openstreetmap.org entry. A video tutorial is also available.
@@ -75,5 +76,4 @@ Jetzt folgt etwas manuelle Bearbeitung:
 10. Lade die Änderungen hoch und schreibe im Changeset:
 
 Kommentar: "Ort: Strasse1, Strasse2, Strasse3"
-
 Quelle: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern"
