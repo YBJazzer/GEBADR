@@ -45,7 +45,7 @@ Now some **manual editing** follows:
 8. Drag and drop ".../GEBADR_OSMimport.csv" into JOSM. The plug-in *OpenData* must be installed. 
 9. Check whether nodes fit to buildings on aerial imagery. Preferrably, merge building nodes to building polygons using the plug-in *Conflation*. Otherwise, copy address nodes to the data layer using *Ctrl+Shift+M*. If you feel not sure about an address localisation, don't import it. 
 10. Upload your data and cite source in changeset:<br />
-Comment: "Place: Street1, Street2, Street3"<br />
+Comment: "City: Street1, Street2, Street3"<br />
 Source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern" 
 
 
