@@ -11,10 +11,11 @@ by Stefan Berger (User:YBJazzer)<br />
 ###Data Transformation
 First, the data file in .dbf format is opened in a spreadsheet (e. g. *Microsoft Excel*) and saved as .csv file. Data are edited with two Python 3 scripts: 
 
-- **Script 1** (before manual editing) creates three consecutive files: 
-GEBADR_WGS84.csv - Reduces GEBADR list and adds WGS84 coordinates (calculated from Swiss coordinates LV95). 
-GEBADR_OSMstyle.csv - Headers are changed to OSM keys and NUTZUNG entries are categorised into key:building. 
-GEBADR_OSMstyle_edited.csv - Entries without housenumbers ("nn") and/or NUTZUNG "unterirdisches gebaeude" (underground building) are sorted out. 
+- **Script 1** (before manual editing) creates three consecutive files:<br />
+GEBADR_WGS84.csv - Reduces GEBADR list and adds WGS84 coordinates (calculated from Swiss coordinates LV95).<br />
+GEBADR_OSMstyle.csv - Headers are changed to OSM keys and NUTZUNG entries are categorised into key:building.<br />
+GEBADR_OSMstyle_edited.csv - Entries without housenumbers ("nn") and/or NUTZUNG "unterirdisches gebaeude" (underground building) are sorted out.<br />
+
 The GEBADR_OSMstyle_edited.csv file is opened in a spreadsheet and **edited manually**. The addresses for import are selected and checked. The selection is saved as GEBADR_selection.csv. 
 
 - **Script 2** (after manual editing) creates a new file GEBADR_OSMimport.csv which has quotation marks added to all non-coordinate entries in the GEBADR_selection.csv. 
