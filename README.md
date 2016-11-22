@@ -8,7 +8,7 @@ by Stefan Berger (User:YBJazzer)
 22.11.2016
 
 
-Data Transformation
+###Data Transformation
 
 First, the data file in .dbf format is opened in a spreadsheet (e. g. Microsoft Excel) and saved as .csv file. 
 Data are edited with two Python 3 scripts: 
@@ -24,14 +24,14 @@ The GEBADR_OSMstyle_edited.csv file is opened in a spreadsheet and edited manual
 The created GEBADR_OSMimport.csv file can be easily imported to JOSM by the plug-in OpenData. 
 The building nodes are merged to building polygons by using the plug-in Conflation. 
 
-Changeset Tags
+###Changeset Tags
 
 The changeset tags should contain the following information: 
 Comment: "City: Street1 or Place1, Street2/Place2, ..."; e.g. "Bern: Ostring, Papiermühlestrasse, Pappelweg" 
 Source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern" 
 
 
-Step by step instructions (English)
+###Step by step instructions (English)
 
 This instruction describes the edit of GEBADR data with Python 3 and Microsoft Excel spreadsheet. MS Excel will save .csv files with ";" as delimiter in German versions. The import plug-in OpenData will also use ";" as delimiter. Keep this in mind (and correct it in the scripts) when using another spreadsheet (e.g. Appache OpenOffice Calc). 
 You need: Python 3 (to run the scripts with IDLE), a text editor (e.g. Notepad++) and a spreadsheet (e.g. Microsoft Excel). 
@@ -52,7 +52,7 @@ Comment: "Place: Street1, Street2, Street3"
 Source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern" 
 
 
-Step by step instructions (German)
+###Step by step instructions (German)
 
 Dies Anleitung beschreibt die Bearbeitung der GEBADR Daten mit Python 3 und dem Tabellenkalkulationsprogramm Microsoft Excel. MS Excel speichert Tabellen im .csv Format mit ";" als Delimiter. Das Import Plug-in OpenData benötigt ebenfalls ";" als Delimiter. Beachte dies (und korrigiere im Script) falls ein anderes Tabellenkalkulationsprogramm (z.B. Appache OpenOffice Calc) verwendet wird. 
 Benötigt werden: Python 3 (um die Scripts mit IDLE laufen zu lassen), ein Texteditor (z.B. Notepad++) und ein Tabellenkalkulationsprogramm (z.B. Microsoft Excel). 
