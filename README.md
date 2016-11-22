@@ -1,6 +1,8 @@
-This document describes the workflow of how to import the GEBADR list from the canton of Bern into OpenStreetMap in JOSM. The instruction is copied from the wiki.openstreetmap.org entry. A video tutorial is also available.
-Wiki.openstreetmap entry: http://wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_Import
+#Canton of Bern Address Import
 
+This document describes the workflow of how to import the GEBADR list from the canton of Bern into OpenStreetMap in JOSM. The instruction is copied from the wiki.openstreetmap.org entry. A video tutorial is also available.
+
+Wiki.openstreetmap entry: http://wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_Import
 Video tutorial: https://www.youtube.com/watch?v=pieUZrhfOdc&feature=youtu.be
 
 by Stefan Berger (User:YBJazzer)
@@ -10,19 +12,16 @@ by Stefan Berger (User:YBJazzer)
 
 ###Data Transformation
 
-First, the data file in .dbf format is opened in a spreadsheet (e. g. Microsoft Excel) and saved as .csv file. 
-Data are edited with two Python 3 scripts: 
+First, the data file in .dbf format is opened in a spreadsheet (e. g. Microsoft Excel) and saved as .csv file. Data are edited with two Python 3 scripts: 
 
 - Script 1 (before manual editing) creates three consecutive files: 
 GEBADR_WGS84.csv - Reduces GEBADR list and adds WGS84 coordinates (calculated from Swiss coordinates LV95). 
 GEBADR_OSMstyle.csv - Headers are changed to OSM keys and NUTZUNG entries are categorised into key:building. 
 GEBADR_OSMstyle_edited.csv - Entries without housenumbers ("nn") and/or NUTZUNG "unterirdisches gebaeude" (underground building) are sorted out. 
-
 The GEBADR_OSMstyle_edited.csv file is opened in a spreadsheet and edited manually. The addresses for import are selected and checked. The selection is saved as GEBADR_selection.csv. 
 
 - Script 2 (after manual editing) creates a new file GEBADR_OSMimport.csv which has quotation marks added to all non-coordinate entries in the GEBADR_selection.csv. 
-The created GEBADR_OSMimport.csv file can be easily imported to JOSM by the plug-in OpenData. 
-The building nodes are merged to building polygons by using the plug-in Conflation. 
+The created GEBADR_OSMimport.csv file can be easily imported to JOSM by the plug-in OpenData. The building nodes are merged to building polygons by using the plug-in Conflation. 
 
 ###Changeset Tags
 
@@ -35,7 +34,7 @@ Source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kanton
 
 This instruction describes the edit of GEBADR data with Python 3 and Microsoft Excel spreadsheet. MS Excel will save .csv files with ";" as delimiter in German versions. The import plug-in OpenData will also use ";" as delimiter. Keep this in mind (and correct it in the scripts) when using another spreadsheet (e.g. Appache OpenOffice Calc). 
 You need: Python 3 (to run the scripts with IDLE), a text editor (e.g. Notepad++) and a spreadsheet (e.g. Microsoft Excel). 
-A video tutorial is available here [see link above]. 
+A video tutorial is available [here] (https://www.youtube.com/watch?v=pieUZrhfOdc&feature=youtu.be). 
 
 1. Download and unzip GEBADR.zip file. 
 2. Open "...GEBADR/GEBADR/LV95/data/GEBADR_GADR.dbf" in a spreadsheet. 
@@ -56,7 +55,7 @@ Source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kanton
 
 Dies Anleitung beschreibt die Bearbeitung der GEBADR Daten mit Python 3 und dem Tabellenkalkulationsprogramm Microsoft Excel. MS Excel speichert Tabellen im .csv Format mit ";" als Delimiter. Das Import Plug-in OpenData benötigt ebenfalls ";" als Delimiter. Beachte dies (und korrigiere im Script) falls ein anderes Tabellenkalkulationsprogramm (z.B. Appache OpenOffice Calc) verwendet wird. 
 Benötigt werden: Python 3 (um die Scripts mit IDLE laufen zu lassen), ein Texteditor (z.B. Notepad++) und ein Tabellenkalkulationsprogramm (z.B. Microsoft Excel). 
-Ein Videotutorial findet sich hier [siehe Link oben]. 
+Ein Videotutorial findet sich [hier] (https://www.youtube.com/watch?v=pieUZrhfOdc&feature=youtu.be). 
 
 1. Runterladen und entzippen der GEBADR.zip Datei. 
 2. Öffne "...GEBADR/GEBADR/LV95/data/GEBADR_GADR.dbf" im Tabellenkalkulationsprogramm. 
