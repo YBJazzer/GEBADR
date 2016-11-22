@@ -27,6 +27,7 @@ The created GEBADR_OSMimport.csv file can be easily imported to JOSM by the plug
 
 ###Changeset Tags
 
+
 The changeset tags should contain the following information:
 
 Comment: "City: Street1 or Place1, Street2/Place2, ..."; e.g. "Bern: Ostring, Papiermühlestrasse, Pappelweg"
@@ -76,4 +77,5 @@ Jetzt folgt etwas manuelle Bearbeitung:
 10. Lade die Änderungen hoch und schreibe im Changeset:
 
 Kommentar: "Ort: Strasse1, Strasse2, Strasse3"
+
 Quelle: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern"
