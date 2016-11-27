@@ -43,7 +43,7 @@ Now some manual editing follows:
 9. Check whether nodes fit to buildings on aerial imagery. Preferrably, merge building nodes to building polygons using the plug-in Conflation. Otherwise, copy address nodes to the data layer using Ctrl+Shift+M. If you feel not sure about an address localisation, don't import it.
 Previously mapped exact address nodes that represent entrances (e.g. Länggasse, Bern) can remain unchanged.
 Addresses without buildings: Draw the building outline according to aerial imagery and merge address on building outline.
-Multiple addresses in one building: Divide the building with new outlines and merge addresses on building part outlines. If you cannot do that, transfer building type to building polygon and delete key:building in address nodes. No warning message building in building should occur anymore.
+Multiple addresses in one building: Divide the building with new outlines and merge addresses on building part outlines. If you cannot do that, transfer building type to building polygon and delete key:building in address nodes.
 10. Upload your data and cite source in changeset: 
 Comment: "City: Street1, Street2, Street3" 
 Source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern" 
@@ -66,7 +66,7 @@ Jetzt folgt etwas manuelle Bearbeitung:
 9. Überprüfe ob die Gebäude-/Adresspunkte mit den Luftbildern übereinstimmen. Übertrage die Gebäude-/Adresspunkte auf die Gebäudeumrisse mittels Conflation Plug-in. Sofern kein Gebäudeumriss vorhanden ist, kopiere den Gebäude-/Adresspunkt mittels Ctrl+Shift+M in die Datenebene. Falls du dir über eine Adresse unsicher bist, importiere sie im Zweifelsfall nicht.
 Bereits exakt auf Eingänge gemappte Adresspunkte (z.B. Länggasse, Bern) können so belassen werden.
 Adressen ohne Gebäudeumriss: Zeichne den Gebäudeumriss entsprechend den Luftbildern und merge die Adresse auf den Gebäudeumriss.
-Mehrere Adressen in einem Gebäude: Unterteile das Gebäude und merge die Adressen mit den Umrissen der Gebäudeteile. Falls dies nicht möglich ist, übertrage den Gebäudetyp auf den Gebäudeumriss und entferne ihn von den Addresspunkten. Die Fehlermeldung Gebäude im Gebäude sollte nicht mehr auftauchen.
+Mehrere Adressen in einem Gebäude: Unterteile das Gebäude und merge die Adressen mit den Umrissen der Gebäudeteile. Falls dies nicht möglich ist, übertrage den Gebäudetyp auf den Gebäudeumriss und entferne ihn von den Addresspunkten.
 10. Lade die Änderungen hoch und schreibe im Changeset: 
 Kommentar: "Ort: Strasse1, Strasse2, Strasse3" 
 Quelle: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern"
