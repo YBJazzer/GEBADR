@@ -44,9 +44,9 @@ Now some **manual editing** follows:
 7. Adjust **Script 2**, set input path ".../GEBADR_selection.csv" and output path. This script will add quotation marks to all non-coordinate entries, which is the format needed for import. 
 8. Drag and drop ".../GEBADR_OSMimport.csv" into JOSM. The plug-in *OpenData* must be installed. 
 9. Check whether nodes fit to buildings on aerial imagery. Preferrably, merge building nodes to building polygons using the plug-in *Conflation*. Otherwise, copy address nodes to the data layer using *Ctrl+Shift+M*. If you feel not sure about an address localisation, don't import it.<br />
-Previously mapped exact address nodes that represent entrances (e.g. Länggasse, Bern) can remain unchanged.<br />
-Addresses without buildings: Draw the building outline according to aerial imagery and merge address on building outline.<br />
-Multiple addresses in one building: Divide the building with new outlines and merge addresses on building part outlines. If you cannot do that, transfer building type to building polygon and delete key:building in address nodes.<br />
+*Previously mapped exact address nodes* that represent entrances (e.g. Länggasse, Bern) can remain unchanged.<br />
+*Addresses without buildings*: Draw the building outline according to aerial imagery and merge address on building outline.<br />
+*Multiple addresses in one building*: Divide the building with new outlines and merge addresses on building part outlines. If you cannot do that, transfer building type to building polygon and delete key:building in address nodes.<br />
 10. Upload your data and cite source in changeset:<br />
 Comment: "City: Street1, Street2, Street3"<br />
 Source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern" 
