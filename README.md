@@ -68,7 +68,7 @@ Jetzt folgt etwas **manuelle Bearbeitung**:
 7. Passe in **Script 2** den input-Pfad ( ".../GEBADR_selection.csv") und den ouput-Pfad an. Das Script schreibt Anführungszeichen zu allen nicht-Koordinateneinträgen. Dies ist die richtige Darstellung für den Import. 
 8. Klicke und ziehe die Datei ".../GEBADR_OSMimport.csv" in JOSM. Das Plug-in *OpenData* muss installiert sein. 
 9. Überprüfe ob die Gebäude-/Adresspunkte mit den Luftbildern übereinstimmen. Übertrage die Gebäude-/Adresspunkte auf die Gebäudeumrisse mittels *Conflation* Plug-in. Sofern kein Gebäudeumriss vorhanden ist, kopiere den Gebäude-/Adresspunkt mittels *Ctrl+Shift+M* in die Datenebene. Falls du dir über eine Adresse unsicher bist, importiere sie im Zweifelsfall nicht.<br />
-Bereits *exakt auf Eingänge gemappte Adresspunkte* (z.B. Länggasse, Bern) können so belassen werden.<br />
+*Bereits exakt auf Eingänge gemappte Adresspunkte* (z.B. Länggasse, Bern) können so belassen werden.<br />
 *Adressen ohne Gebäudeumriss*: Zeichne den Gebäudeumriss entsprechend den Luftbildern und merge die Adresse auf den Gebäudeumriss.
 *Mehrere Adressen in einem Gebäude*: Unterteile das Gebäude und merge die Adressen mit den Umrissen der Gebäudeteile. Falls dies nicht möglich ist, übertrage den Gebäudetyp auf den Gebäudeumriss und entferne ihn von den Addresspunkten.<br />
 10. Lade die Änderungen hoch und schreibe im Changeset:<br />
