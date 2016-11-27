@@ -40,7 +40,10 @@ Now some manual editing follows:
 6. Filter the addresses you want to import (with Pivot filter), check whether key:place should be used instead of key:street, and add street:fr (resp. place:fr) if necessary. Save file as ".../GEBADR_selection.csv" (Trennzeichen-getrennt). Check in a text editor if file contains your selection. 
 7. Adjust Script 2, set input path ".../GEBADR_selection.csv" and output path. This script will add quotation marks to all non-coordinate entries, which is the format needed for import. 
 8. Drag and drop ".../GEBADR_OSMimport.csv" into JOSM. The plug-in OpenData must be installed. 
-9. Check whether nodes fit to buildings on aerial imagery. Preferrably, merge building nodes to building polygons using the plug-in Conflation. Otherwise, copy address nodes to the data layer using Ctrl+Shift+M. If you feel not sure about an address localisation, don't import it. 
+9. Check whether nodes fit to buildings on aerial imagery. Preferrably, merge building nodes to building polygons using the plug-in Conflation. Otherwise, copy address nodes to the data layer using Ctrl+Shift+M. If you feel not sure about an address localisation, don't import it.
+Previously mapped exact address nodes that represent entrances (e.g. Länggasse, Bern) can remain unchanged.
+Addresses without buildings: Draw the building outline according to aerial imagery and merge address on building outline.
+Multiple addresses in one building: Divide the building with new outlines and merge addresses on building part outlines. If you cannot do that, transfer building type to building polygon and delete key:building in address nodes. No warning message building in building should occur anymore.
 10. Upload your data and cite source in changeset: 
 Comment: "City: Street1, Street2, Street3" 
 Source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern" 
@@ -60,7 +63,10 @@ Jetzt folgt etwas manuelle Bearbeitung:
 6. Filtere die Adressen, welche du importieren möchtest (mit dem Pivot-Filter), überprüfe ob key:place besser passt als key:street und korrigiere gegebenenfalls. Falls vorhanden, schreibe die französischen Strassennamen in die Spalte street:fr. Speichere die Datei als ".../GEBADR_selection.csv" (Trennzeichen-getrennt). Überprüfe im Texteditor, ob deine Auswahl wie gewünscht gezeigt wird. 
 7. Passe in Script 2 den input-Pfad ( ".../GEBADR_selection.csv") und den ouput-Pfad an. Das Script schreibt Anführungszeichen zu allen nicht-Koordinateneinträgen. Dies ist die richtige Darstellung für den Import. 
 8. Klicke und ziehe die Datei ".../GEBADR_OSMimport.csv" in JOSM. Das Plug-in OpenData muss installiert sein. 
-9. Überprüfe ob die Gebäude-/Adresspunkte mit den Luftbildern übereinstimmen. Übertrage die Gebäude-/Adresspunkte auf die Gebäudeumrisse mittels Conflation Plug-in. Sofern kein Gebäudeumriss vorhanden ist, kopiere den Gebäude-/Adresspunkt mittels Ctrl+Shift+M in die Datenebene. Falls du dir über eine Adresse unsicher bist, importiere sie im Zweifelsfall nicht. 
+9. Überprüfe ob die Gebäude-/Adresspunkte mit den Luftbildern übereinstimmen. Übertrage die Gebäude-/Adresspunkte auf die Gebäudeumrisse mittels Conflation Plug-in. Sofern kein Gebäudeumriss vorhanden ist, kopiere den Gebäude-/Adresspunkt mittels Ctrl+Shift+M in die Datenebene. Falls du dir über eine Adresse unsicher bist, importiere sie im Zweifelsfall nicht.
+Bereits exakt auf Eingänge gemappte Adresspunkte (z.B. Länggasse, Bern) können so belassen werden.
+Adressen ohne Gebäudeumriss: Zeichne den Gebäudeumriss entsprechend den Luftbildern und merge die Adresse auf den Gebäudeumriss.
+Mehrere Adressen in einem Gebäude: Unterteile das Gebäude und merge die Adressen mit den Umrissen der Gebäudeteile. Falls dies nicht möglich ist, übertrage den Gebäudetyp auf den Gebäudeumriss und entferne ihn von den Addresspunkten. Die Fehlermeldung Gebäude im Gebäude sollte nicht mehr auftauchen.
 10. Lade die Änderungen hoch und schreibe im Changeset: 
 Kommentar: "Ort: Strasse1, Strasse2, Strasse3" 
 Quelle: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern"
