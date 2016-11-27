@@ -1,6 +1,7 @@
-This document describes the workflow of how to import the GEBADR list from the canton of Bern into OpenStreetMap in JOSM. The instruction is copied from the wiki.openstreetmap.org entry. A video tutorial is also available.
+This document describes the workflow of how to import the GEBADR list from the canton of Bern into OpenStreetMap in JOSM. The instruction is copied from the wiki.openstreetmap.org entry. A video tutorial is also available. The tasking manager is used for controlling and also an alternative way of mapping.
 Wiki.openstreetmap entry: http://wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_Import
 Video tutorial: https://www.youtube.com/watch?v=pieUZrhfOdc&feature=youtu.be
+Tasking manager: http://tasks.osmcanada.ca/project/48
 by Stefan Berger (User:YBJazzer)
 22.11.2016
 
@@ -29,7 +30,8 @@ Source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kanton
 Step by step instructions (English)
 This instruction describes the edit of GEBADR data with Python 3 and Microsoft Excel spreadsheet. MS Excel will save .csv files with ";" as delimiter in German versions. The import plug-in OpenData will also use ";" as delimiter. Keep this in mind (and correct it in the scripts) when using another spreadsheet (e.g. Appache OpenOffice Calc). 
 You need: Python 3 (to run the scripts with IDLE), a text editor (e.g. Notepad++) and a spreadsheet (e.g. Microsoft Excel). 
-A video tutorial is available here [see link above]. 
+A video tutorial is available here [see link above].
+
 
 1. Download and unzip GEBADR.zip file. 
 2. Open "...GEBADR/GEBADR/LV95/data/GEBADR_GADR.dbf" in a spreadsheet. 
