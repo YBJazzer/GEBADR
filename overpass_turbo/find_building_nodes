@@ -1,7 +1,3 @@
-# finds building polygons with building nodes inside
-node({{bbox}})[building];is_in;
-(way[building](pivot);>;);out;
-
-# finds all building nodes
+# finds building nodes
 node({{bbox}})[building];
 out;
