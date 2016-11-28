@@ -1,4 +1,4 @@
-/* find building nodes on overpass-turbo.de */
+/* find building nodes on overpass-turbo.eu */
 area[name="Bern - Berne"];
 node[building](area);
 out meta;
