@@ -1,3 +1,4 @@
-# finds building nodes
-node({{bbox}})[building];
+/* find building nodes on overpass-turbo.de */
+area[name="Bern - Berne"];
+node[building](area);
 out meta;
