@@ -27,7 +27,7 @@ The created GEBADR_OSMimport.csv file can be easily imported to JOSM by the plug
 The changeset tags should contain the following information:<br />
 Comment: "City: Street1 or Place1, Street2/Place2, ..."; e.g. "Bern: Ostring, Papiermühlestrasse, Pappelweg"<br />
 Source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern"<br />
-Description: "https://<span></span>wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_Import"<br />
+Description: "https://<i></i>wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_Import"<br />
 
 
 ###Step by step instructions (English)
@@ -52,7 +52,7 @@ Now some **manual editing** follows:
 10. Upload your data and cite source in changeset:<br />
     Comment: "City: Street1, Street2, Street3"<br />
     Source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern"<br />
-    Description: "https://<span></span>wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_Import"
+    Description: "https://<i></i>wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_Import"
 
 
 ###Step by step instructions (German)
@@ -77,4 +77,4 @@ Jetzt folgt etwas **manuelle Bearbeitung**:
 10. Lade die Änderungen hoch und schreibe im Changeset:<br />
     Kommentar/comment: "Ort: Strasse1, Strasse2, Strasse3"<br />
     Quelle/source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern"<br />
-    Beschreibung/description: "https://<span></span>wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_Import"
+    Beschreibung/description: "https://<i></i>wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_Import"
