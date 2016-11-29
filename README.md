@@ -49,8 +49,9 @@ Now some **manual editing** follows:
 *Addresses without buildings*: Draw the building outline according to aerial imagery and merge address on building outline.<br />
 *Multiple addresses in one building*: Divide the building with new outlines and merge addresses on building part outlines. If you cannot do that, transfer building type to building polygon and delete key:building in address nodes.<br />
 10. Upload your data and cite source in changeset:<br />
-Comment: "City: Street1, Street2, Street3"<br />
-Source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern" 
+    Comment: "City: Street1, Street2, Street3"<br />
+    Source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern"
+    Description: "https://wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_Import"
 
 
 ###Step by step instructions (German)
@@ -73,5 +74,6 @@ Jetzt folgt etwas **manuelle Bearbeitung**:
 *Adressen ohne Gebäudeumriss*: Zeichne den Gebäudeumriss entsprechend den Luftbildern und merge die Adresse auf den Gebäudeumriss.
 *Mehrere Adressen in einem Gebäude*: Unterteile das Gebäude und merge die Adressen mit den Umrissen der Gebäudeteile. Falls dies nicht möglich ist, übertrage den Gebäudetyp auf den Gebäudeumriss und entferne ihn von den Addresspunkten.<br />
 10. Lade die Änderungen hoch und schreibe im Changeset:<br />
-    Kommentar: "Ort: Strasse1, Strasse2, Strasse3"<br />
-    Quelle: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern"
+    Kommentar/comment: "Ort: Strasse1, Strasse2, Strasse3"<br />
+    Quelle/source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern"
+    Beschreibung/description: "https://wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_Import"
