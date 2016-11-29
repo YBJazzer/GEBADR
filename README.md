@@ -26,7 +26,8 @@ The created GEBADR_OSMimport.csv file can be easily imported to JOSM by the plug
 
 The changeset tags should contain the following information:<br />
 Comment: "City: Street1 or Place1, Street2/Place2, ..."; e.g. "Bern: Ostring, Papiermühlestrasse, Pappelweg"<br />
-Source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern" 
+Source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern"<br />
+Description: "https://wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_Import<br />
 
 
 ###Step by step instructions (English)
@@ -50,7 +51,7 @@ Now some **manual editing** follows:
 *Multiple addresses in one building*: Divide the building with new outlines and merge addresses on building part outlines. If you cannot do that, transfer building type to building polygon and delete key:building in address nodes.<br />
 10. Upload your data and cite source in changeset:<br />
     Comment: "City: Street1, Street2, Street3"<br />
-    Source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern"
+    Source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern"<br />
     Description: "https://wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_Import"
 
 
@@ -75,5 +76,5 @@ Jetzt folgt etwas **manuelle Bearbeitung**:
 *Mehrere Adressen in einem Gebäude*: Unterteile das Gebäude und merge die Adressen mit den Umrissen der Gebäudeteile. Falls dies nicht möglich ist, übertrage den Gebäudetyp auf den Gebäudeumriss und entferne ihn von den Addresspunkten.<br />
 10. Lade die Änderungen hoch und schreibe im Changeset:<br />
     Kommentar/comment: "Ort: Strasse1, Strasse2, Strasse3"<br />
-    Quelle/source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern"
+    Quelle/source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern"<br />
     Beschreibung/description: "https://wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_Import"
