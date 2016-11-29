@@ -24,7 +24,8 @@ The building nodes are merged to building polygons by using the plug-in Conflati
 Changeset Tags
 The changeset tags should contain the following information: 
 Comment: "City: Street1 or Place1, Street2/Place2, ..."; e.g. "Bern: Ostring, Papiermühlestrasse, Pappelweg" 
-Source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern" 
+Source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern"
+Description: "https://wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_Import"
 
 
 Step by step instructions (English)
@@ -48,7 +49,9 @@ Addresses without buildings: Draw the building outline according to aerial image
 Multiple addresses in one building: Divide the building with new outlines and merge addresses on building part outlines. If you cannot do that, transfer building type to building polygon and delete key:building in address nodes.
 10. Upload your data and cite source in changeset: 
 Comment: "City: Street1, Street2, Street3" 
-Source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern" 
+Source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern"
+Description: "https://wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_Import"
+
 
 
 Step by step instructions (German)
@@ -70,5 +73,6 @@ Bereits exakt auf Eingänge gemappte Adresspunkte (z.B. Länggasse, Bern) könne
 Adressen ohne Gebäudeumriss: Zeichne den Gebäudeumriss entsprechend den Luftbildern und merge die Adresse auf den Gebäudeumriss.
 Mehrere Adressen in einem Gebäude: Unterteile das Gebäude und merge die Adressen mit den Umrissen der Gebäudeteile. Falls dies nicht möglich ist, übertrage den Gebäudetyp auf den Gebäudeumriss und entferne ihn von den Addresspunkten.
 10. Lade die Änderungen hoch und schreibe im Changeset: 
-Kommentar: "Ort: Strasse1, Strasse2, Strasse3" 
-Quelle: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern"
+Kommentar/comment: "Ort: Strasse1, Strasse2, Strasse3" 
+Quelle/source: "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern"
+Beschreibung/description: "https://wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_Import"
