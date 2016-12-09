@@ -36,8 +36,8 @@ Description: "https://<i></i>wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_
 ###Step by step instructions (English)
 
 This instruction describes the edit of GEBADR data with *Python 3* and *Microsoft Excel* spreadsheet. *MS Excel* will save .csv files with ";" as delimiter in German versions. The import plug-in *OpenData* will also use ";" as delimiter.<br />
+
 You need: *Python 3* (to run the scripts with *IDLE*), a text editor (e.g. *Notepad++*) and a spreadsheet (e.g. *Microsoft Excel*).<br />
-A video tutorial is available [here] (https://www.youtube.com/watch?v=pieUZrhfOdc&feature=youtu.be).<br />
 
 *Information for LibreOffice and OpenOffice users*<br />
 If you save the GEBADR_GADR.dbf file in your spreadsheet as .csv, two minor changes have to be made:<br />
@@ -68,8 +68,8 @@ Now some **manual editing** follows:
 ###Step by step instructions (German)
 
 Dies Anleitung beschreibt die Bearbeitung der GEBADR Daten mit *Python 3* und dem Tabellenkalkulationsprogramm *Microsoft Excel*. *MS Excel* speichert Tabellen im .csv Format mit ";" als Delimiter. Das Import Plug-in *OpenData* benötigt ebenfalls ";" als Delimiter. <br />
+
 Benötigt werden: *Python 3* (um die Scripts mit *IDLE* laufen zu lassen), ein Texteditor (z.B. *Notepad++*) und ein Tabellenkalkulationsprogramm (z.B. *Microsoft Excel*).<br />
-Ein Videotutorial findet sich [hier] (https://www.youtube.com/watch?v=pieUZrhfOdc&feature=youtu.be).
 
 *Information für LibreOffice und OpenOffice Benutzer*<br />
 Wenn du das GEBADR_GADR.dbf File im Tabellenkalkulationsprogramm als .csv speicherst, müssen zwei kleine Änderungen gemacht werden:<br />
