@@ -7,8 +7,17 @@ by Stefan Berger (User:YBJazzer)
 
 
 Data Transformation
-First, the data file in .dbf format is opened in a spreadsheet (e. g. Microsoft Excel) and saved as .csv file. 
-Data are edited with two Python 3 scripts: 
+
+First, the data file in .dbf format is opened in a spreadsheet (e. g. Microsoft Excel) and saved as .csv file.
+
+Information for LibreOffice and OpenOffice users
+If you save the GEBADR_GADR.dbf file in your spreadsheet as .csv, two minor changes have to be made:
+1. Change the delimiter in Script 1 from ";" to ",".
+2. The entries of the first line of a .dbf file (which are the headers) look a bit special when opened in LibreOffice or OpenOffice spreadsheet.
+They look like this: "LOKALISAT,C,60","GEBNR,C,12","BFSNR,N,4,0"
+Change them manually to look like this: "LOKALISAT","GEBNR","BFSNR" or LOKALISAT,GEBNR,BFSNR
+
+Data are then edited with two Python 3 scripts:
 
 - Script 1 (before manual editing) creates three consecutive files: 
 GEBADR_WGS84.csv - Reduces GEBADR list and adds WGS84 coordinates (calculated from Swiss coordinates LV95). 
