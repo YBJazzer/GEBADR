@@ -1,3 +1,4 @@
+
 This document describes the workflow of how to import the GEBADR list from the canton of Bern into OpenStreetMap in JOSM. The instruction is copied from the wiki.openstreetmap.org entry. A video tutorial is also available. The tasking manager is used for controlling and also an alternative way of mapping.
 Wiki.openstreetmap entry: http://wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_Import
 Video tutorial: https://www.youtube.com/watch?v=pieUZrhfOdc&feature=youtu.be
@@ -26,6 +27,7 @@ GEBADR_OSMstyle_edited.csv - Entries without housenumbers ("nn") and/or NUTZUNG 
 
 The GEBADR_OSMstyle_edited.csv file is opened in a spreadsheet and edited manually. The addresses for import are selected and checked. The selection is saved as GEBADR_selection.csv. 
 
+
 - Script 2 (after manual editing) creates a new file GEBADR_OSMimport.csv which has quotation marks added to all non-coordinate entries in the GEBADR_selection.csv. 
 The created GEBADR_OSMimport.csv file can be easily imported to JOSM by the plug-in OpenData. 
 The building nodes are merged to building polygons by using the plug-in Conflation. 
@@ -40,7 +42,6 @@ Description: "https://wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_Import"
 Step by step instructions (English)
 This instruction describes the edit of GEBADR data with Python 3 and Microsoft Excel spreadsheet. MS Excel will save .csv files with ";" as delimiter in German versions. The import plug-in OpenData will also use ";" as delimiter.
 You need: Python 3 (to run the scripts with IDLE), a text editor (e.g. Notepad++) and a spreadsheet (e.g. Microsoft Excel). 
-A video tutorial is available here [see link above].
 
 Information for LibreOffice and OpenOffice users
 If you save the GEBADR_GADR.dbf file in your spreadsheet as .csv, two minor changes have to be made:
@@ -49,6 +50,7 @@ If you save the GEBADR_GADR.dbf file in your spreadsheet as .csv, two minor chan
 They look like this: "LOKALISAT,C,60","GEBNR,C,12","BFSNR,N,4,0"
 Change them manually to look like this: "LOKALISAT","GEBNR","BFSNR" or LOKALISAT,GEBNR,BFSNR 
 
+Workflow
 1. Download and unzip GEBADR.zip file. 
 2. Open "...GEBADR/GEBADR/LV95/data/GEBADR_GADR.dbf" in a spreadsheet. 
 3. Save as ".../GEBADR_GADR.csv" (MS-DOS) - This is important for correct display of umlauts and French letters. Check in a text editor whether umlauts are displayed correctly. 
@@ -72,7 +74,6 @@ Description: "https://wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_Import"
 Step by step instructions (German)
 Dies Anleitung beschreibt die Bearbeitung der GEBADR Daten mit Python 3 und dem Tabellenkalkulationsprogramm Microsoft Excel. MS Excel speichert Tabellen im .csv Format mit ";" als Delimiter. Das Import Plug-in OpenData benötigt ebenfalls ";" als Delimiter. Beachte dies (und korrigiere im Script) falls ein anderes Tabellenkalkulationsprogramm (z.B. Appache OpenOffice Calc) verwendet wird. 
 Benötigt werden: Python 3 (um die Scripts mit IDLE laufen zu lassen), ein Texteditor (z.B. Notepad++) und ein Tabellenkalkulationsprogramm (z.B. Microsoft Excel). 
-Ein Videotutorial findet sich hier [siehe Link oben].
  
 Information für LibreOffice und OpenOffice Benutzer
 Wenn du das GEBADR_GADR.dbf File im Tabellenkalkulationsprogramm als .csv speicherst, müssen zwei kleine Änderungen gemacht werden:
@@ -81,6 +82,7 @@ Wenn du das GEBADR_GADR.dbf File im Tabellenkalkulationsprogramm als .csv speich
 Sie sehen folgendermassen aus: "LOKALISAT,C,60","GEBNR,C,12","BFSNR,N,4,0"
 Ändere dies manuell zu: "LOKALISAT","GEBNR","BFSNR" oder LOKALISAT,GEBNR,BFSNR
 
+Workflow
 1. Runterladen und entzippen der GEBADR.zip Datei. 
 2. Öffne "...GEBADR/GEBADR/LV95/data/GEBADR_GADR.dbf" im Tabellenkalkulationsprogramm. 
 3. Speichere als ".../GEBADR_GADR.csv" (MS-DOS) - Dies ist notwendig für die korrekte Darstellung von Umlauten und französischen Buchstaben, überprüfe im Texteditor die korrekte Schreibweise. 
