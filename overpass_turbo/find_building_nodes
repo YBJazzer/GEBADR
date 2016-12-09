@@ -1,9 +1,9 @@
-/* find building nodes on overpass-turbo.eu */
+ /* find building nodes in an area by name (find names for example on Nominatim) on overpass-turbo.eu */
 area[name="Bern - Berne"];
 node[building](area);
 out meta;
 
-/* find building ways on overpass-turbo.eu */
+/* find building ways inside your current view on overpass-turbo.eu */
 way[building]({{bbox}});
 (._;>;);
 out meta;
