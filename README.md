@@ -38,7 +38,8 @@ Description: "https://<i></i>wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_
 This instruction describes the edit of GEBADR data with *Python 3* and *Microsoft Excel* spreadsheet. *MS Excel* will save .csv files with ";" as delimiter in German versions. The import plug-in *OpenData* will also use ";" as delimiter.<br />
 
 *Information for LibreOffice and OpenOffice users*<br />
-If you save the GEBADR_GADR.dbf file in your spreadsheet as .csv, two minor changes have to be made:<br />- Change the delimiter in *Script 1* from ";" to ",".<br />
+If you save the GEBADR_GADR.dbf file in your spreadsheet as .csv, two minor changes have to be made:<br />
+- Change the delimiter in *Script 1* from ";" to ",".<br />
 - The entries of the first line of a .dbf file (which are the headers) look a bit special when opened in *LibreOffice* or *OpenOffice* spreadsheet.<br />
 They look like this: "LOKALISAT,C,60","GEBNR,C,12","BFSNR,N,4,0"<br />
 Change them manually to look like this: "LOKALISAT","GEBNR","BFSNR" or LOKALISAT,GEBNR,BFSNR
@@ -71,7 +72,8 @@ Dies Anleitung beschreibt die Bearbeitung der GEBADR Daten mit *Python 3* und de
 
 *Information für LibreOffice und OpenOffice Benutzer*<br />
 Wenn du das GEBADR_GADR.dbf File im Tabellenkalkulationsprogramm als .csv speicherst, müssen zwei kleine Änderungen gemacht werden:<br />
-- Ändere den Delimiter in ''Script 1'' von ";" zu ",".<br />- Die Einträge der ersten Zeile eines .dbf Files (was den Kategorietiteln entspricht) sehen etwas speziell aus im *LibreOffice* oder *OpenOffice* Tabellenkalkulationsprogramm.<br />
+- Ändere den Delimiter in ''Script 1'' von ";" zu ",".<br />
+- Die Einträge der ersten Zeile eines .dbf Files (was den Kategorietiteln entspricht) sehen etwas speziell aus im *LibreOffice* oder *OpenOffice* Tabellenkalkulationsprogramm.<br />
 Sie sehen folgendermassen aus: "LOKALISAT,C,60","GEBNR,C,12","BFSNR,N,4,0"<br />
 Ändere dies manuell zu: "LOKALISAT","GEBNR","BFSNR" oder LOKALISAT,GEBNR,BFSNR
 
