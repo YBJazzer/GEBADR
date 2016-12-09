@@ -42,6 +42,14 @@
 # The coordinate transformation calculation is unchanged from the original swisstopo script.
 # The script calculates through the GEBADR_GADR list from the canton of Bern. The list is available here: http://www.apps.be.ch/geo/index.php?tmpl=index&option=com_easysdi_catalog&Itemid=2&context=geocatalog&toolbar=1&task=showMetadata&type=complete&id=5dfcc475-ef53-4483-a7f0-5d8e503fea9f&lang=de
 # Open the ".../GEBADR/LV95/data/GEBADR_GADR.dbf" file in Excel and save as .csv (MS-DOS). In Excel, the delimiter for data items in .csv files is set as ";" by default.
+
+#Information for LibreOffice and OpenOffice users
+#If you save the GEBADR_GADR.dbf file in your spreadsheet as .csv, two minor changes have to be made:
+#- Change the delimiter in Script 1 from ";" to ",".
+#- The entries of the first line of a .dbf file (which are the headers) look a bit special when opened in LibreOffice or OpenOffice spreadsheet.
+#They look like this: "LOKALISAT,C,60","GEBNR,C,12","BFSNR,N,4,0"
+#Change them manually to look like this: "LOKALISAT","GEBNR","BFSNR" or LOKALISAT,GEBNR,BFSNR
+
 # Run this script. Three outputfiles are created:
 # Outputfile GEBADR_WGS84: '.../GEBADR_WGS84.csv' contains two aditional columns for WGS84 latitude and longitude and misses some columns that are not relevant for further use in OSM.
 # Outputfile GEBADR_OSMstyle: '.../GEBADR_OSMstyle.csv' has headers changed to OSM keys and the NUTZUNG entries are categorised into OSM key:building tags.
