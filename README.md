@@ -20,7 +20,7 @@ If you save the GEBADR_GADR.dbf file in your spreadsheet as .csv, two minor chan
 They look like this: "LOKALISAT,C,60","GEBNR,C,12","BFSNR,N,4,0"<br />
 Change them manually to look like this: "LOKALISAT","GEBNR","BFSNR" or LOKALISAT,GEBNR,BFSNR
 
-Data are edited with two Python 3 scripts:
+Data are then edited with two Python 3 scripts:
 
 - **Script 1** (before manual editing) creates three consecutive files:<br />
 GEBADR_WGS84.csv - Reduces GEBADR list and adds WGS84 coordinates (calculated from Swiss coordinates LV95).<br />
