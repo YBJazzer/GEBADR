@@ -46,6 +46,7 @@ If you save the GEBADR_GADR.dbf file in your spreadsheet as .csv, two minor chan
 They look like this: "LOKALISAT,C,60","GEBNR,C,12","BFSNR,N,4,0"<br />
 Change them manually to look like this: "LOKALISAT","GEBNR","BFSNR" or LOKALISAT,GEBNR,BFSNR<br />
 
+*Workflow*
 1. Download and unzip GEBADR.zip file. 
 2. Open "...GEBADR/GEBADR/LV95/data/GEBADR_GADR.dbf" in a spreadsheet. 
 3. Save as ".../GEBADR_GADR.csv" (MS-DOS) - This is important for correct display of umlauts and French letters. Check in a text editor whether umlauts are displayed correctly. 
@@ -78,6 +79,7 @@ Wenn du das GEBADR_GADR.dbf File im Tabellenkalkulationsprogramm als .csv speich
 Sie sehen folgendermassen aus: "LOKALISAT,C,60","GEBNR,C,12","BFSNR,N,4,0"<br />
 Ändere dies manuell zu: "LOKALISAT","GEBNR","BFSNR" oder LOKALISAT,GEBNR,BFSNR<br />
 
+*Workflow*
 1. Runterladen und entzippen der GEBADR.zip Datei. 
 2. Öffne "...GEBADR/GEBADR/LV95/data/GEBADR_GADR.dbf" im Tabellenkalkulationsprogramm. 
 3. Speichere als ".../GEBADR_GADR.csv" (MS-DOS) - Dies ist notwendig für die korrekte Darstellung von Umlauten und französischen Buchstaben, überprüfe im Texteditor die korrekte Schreibweise. 
