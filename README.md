@@ -13,13 +13,6 @@ by Stefan Berger (User:YBJazzer)<br />
 
 First, the data file in .dbf format is opened in a spreadsheet (e. g. *Microsoft Excel*) and saved as .csv file.
 
-*Information for LibreOffice and OpenOffice users*<br />
-If you save the GEBADR_GADR.dbf file in your spreadsheet as .csv, two minor changes have to be made:<br />
-1. Change the delimiter in *Script 1* from ";" to ",".<br />
-2. The entries of the first line of a .dbf file (which are the headers) look a bit special when opened in *LibreOffice* or *OpenOffice* spreadsheet.<br />
-They look like this: "LOKALISAT,C,60","GEBNR,C,12","BFSNR,N,4,0"<br />
-Change them manually to look like this: "LOKALISAT","GEBNR","BFSNR" or LOKALISAT,GEBNR,BFSNR
-
 Data are then edited with two Python 3 scripts:
 
 - **Script 1** (before manual editing) creates three consecutive files:<br />
@@ -42,7 +35,14 @@ Description: "https://<i></i>wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_
 
 ###Step by step instructions (English)
 
-This instruction describes the edit of GEBADR data with *Python 3* and *Microsoft Excel* spreadsheet. *MS Excel* will save .csv files with ";" as delimiter in German versions. The import plug-in *OpenData* will also use ";" as delimiter. Keep this in mind (and correct it in the scripts) when using another spreadsheet (e.g. *Appache OpenOffice Calc*).<br />
+This instruction describes the edit of GEBADR data with *Python 3* and *Microsoft Excel* spreadsheet. *MS Excel* will save .csv files with ";" as delimiter in German versions. The import plug-in *OpenData* will also use ";" as delimiter.<br />
+
+*Information for LibreOffice and OpenOffice users*<br />
+If you save the GEBADR_GADR.dbf file in your spreadsheet as .csv, two minor changes have to be made:<br />- Change the delimiter in *Script 1* from ";" to ",".<br />
+- The entries of the first line of a .dbf file (which are the headers) look a bit special when opened in *LibreOffice* or *OpenOffice* spreadsheet.<br />
+They look like this: "LOKALISAT,C,60","GEBNR,C,12","BFSNR,N,4,0"<br />
+Change them manually to look like this: "LOKALISAT","GEBNR","BFSNR" or LOKALISAT,GEBNR,BFSNR
+
 You need: *Python 3* (to run the scripts with *IDLE*), a text editor (e.g. *Notepad++*) and a spreadsheet (e.g. *Microsoft Excel*).<br />
 A video tutorial is available [here] (https://www.youtube.com/watch?v=pieUZrhfOdc&feature=youtu.be). 
 
@@ -67,7 +67,16 @@ Now some **manual editing** follows:
 
 ###Step by step instructions (German)
 
-Dies Anleitung beschreibt die Bearbeitung der GEBADR Daten mit *Python 3* und dem Tabellenkalkulationsprogramm *Microsoft Excel*. *MS Excel* speichert Tabellen im .csv Format mit ";" als Delimiter. Das Import Plug-in *OpenData* benötigt ebenfalls ";" als Delimiter. Beachte dies (und korrigiere im Script) falls ein anderes Tabellenkalkulationsprogramm (z.B. *Appache OpenOffice Calc*) verwendet wird.<br />
+Dies Anleitung beschreibt die Bearbeitung der GEBADR Daten mit *Python 3* und dem Tabellenkalkulationsprogramm *Microsoft Excel*. *MS Excel* speichert Tabellen im .csv Format mit ";" als Delimiter. Das Import Plug-in *OpenData* benötigt ebenfalls ";" als Delimiter. <br />
+
+**Information für LibreOffice und OpenOffice Benutzer<br />
+Wenn du das GEBADR_GADR.dbf File im Tabellenkalkulationsprogramm als .csv speicherst, müssen zwei kleine Änderungen gemacht werden:<br />
+- Ändere den Delimiter in ''Script 1'' von ";" zu ",".<br />
+- Die Einträge der ersten Zeile eines .dbf Files (was den Kategorietiteln entspricht) sehen etwas speziell aus im ''LibreOffice'' oder ''OpenOffice'' Tabellenkalkulationsprogramm.<br />
+Sie sehen folgendermassen aus: "LOKALISAT,C,60","GEBNR,C,12","BFSNR,N,4,0"<br />
+Ändere dies manuell zu: "LOKALISAT","GEBNR","BFSNR" oder LOKALISAT,GEBNR,BFSNR
+
+
 Benötigt werden: *Python 3* (um die Scripts mit *IDLE* laufen zu lassen), ein Texteditor (z.B. *Notepad++*) und ein Tabellenkalkulationsprogramm (z.B. *Microsoft Excel*).<br />
 Ein Videotutorial findet sich [hier] (https://www.youtube.com/watch?v=pieUZrhfOdc&feature=youtu.be). 
 
