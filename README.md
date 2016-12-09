@@ -69,13 +69,11 @@ Now some **manual editing** follows:
 
 Dies Anleitung beschreibt die Bearbeitung der GEBADR Daten mit *Python 3* und dem Tabellenkalkulationsprogramm *Microsoft Excel*. *MS Excel* speichert Tabellen im .csv Format mit ";" als Delimiter. Das Import Plug-in *OpenData* benötigt ebenfalls ";" als Delimiter. <br />
 
-**Information für LibreOffice und OpenOffice Benutzer<br />
+*Information für LibreOffice und OpenOffice Benutzer*<br />
 Wenn du das GEBADR_GADR.dbf File im Tabellenkalkulationsprogramm als .csv speicherst, müssen zwei kleine Änderungen gemacht werden:<br />
-- Ändere den Delimiter in ''Script 1'' von ";" zu ",".<br />
-- Die Einträge der ersten Zeile eines .dbf Files (was den Kategorietiteln entspricht) sehen etwas speziell aus im ''LibreOffice'' oder ''OpenOffice'' Tabellenkalkulationsprogramm.<br />
+- Ändere den Delimiter in ''Script 1'' von ";" zu ",".<br />- Die Einträge der ersten Zeile eines .dbf Files (was den Kategorietiteln entspricht) sehen etwas speziell aus im *LibreOffice* oder *OpenOffice* Tabellenkalkulationsprogramm.<br />
 Sie sehen folgendermassen aus: "LOKALISAT,C,60","GEBNR,C,12","BFSNR,N,4,0"<br />
 Ändere dies manuell zu: "LOKALISAT","GEBNR","BFSNR" oder LOKALISAT,GEBNR,BFSNR
-
 
 Benötigt werden: *Python 3* (um die Scripts mit *IDLE* laufen zu lassen), ein Texteditor (z.B. *Notepad++*) und ein Tabellenkalkulationsprogramm (z.B. *Microsoft Excel*).<br />
 Ein Videotutorial findet sich [hier] (https://www.youtube.com/watch?v=pieUZrhfOdc&feature=youtu.be). 
