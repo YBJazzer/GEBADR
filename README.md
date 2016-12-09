@@ -38,6 +38,7 @@ Description: "https://<i></i>wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_
 This instruction describes the edit of GEBADR data with *Python 3* and *Microsoft Excel* spreadsheet. *MS Excel* will save .csv files with ";" as delimiter in German versions. The import plug-in *OpenData* will also use ";" as delimiter.<br />
 You need: *Python 3* (to run the scripts with *IDLE*), a text editor (e.g. *Notepad++*) and a spreadsheet (e.g. *Microsoft Excel*).<br />
 A video tutorial is available [here] (https://www.youtube.com/watch?v=pieUZrhfOdc&feature=youtu.be).<br />
+
 *Information for LibreOffice and OpenOffice users*<br />
 If you save the GEBADR_GADR.dbf file in your spreadsheet as .csv, two minor changes have to be made:<br />
 - Change the delimiter in *Script 1* from ";" to ",".<br />
