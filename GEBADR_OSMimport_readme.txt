@@ -6,7 +6,7 @@ Wiki.openstreetmap entry: http://wiki.openstreetmap.org/wiki/Canton_of_Bern_Addr
 Video tutorial: https://www.youtube.com/watch?v=pieUZrhfOdc&feature=youtu.be
 Tasking manager: http://tasks.osm.ch/project/3
 by Stefan Berger (User:YBJazzer)
-22.11.2016
+18.01.2017
 
 
 Data Transformation
