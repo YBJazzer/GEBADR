@@ -9,7 +9,7 @@ Video tutorial: https://www.youtube.com/watch?v=pieUZrhfOdc&feature=youtu.be<br 
 Tasking manager: http://tasks.osmcanada.ca/project/48
 
 by Stefan Berger (User:YBJazzer)<br />
-22.11.2016
+18.01.2016
 
 
 ###Data Transformation
