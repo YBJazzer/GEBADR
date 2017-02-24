@@ -1,12 +1,13 @@
 This document describes the workflow of how to import the GEBADR list from the canton of Bern into OpenStreetMap in JOSM. The instruction is copied from the wiki.openstreetmap.org entry. A video tutorial is also available. The tasking manager is used for controlling and also an alternative way of mapping.
 
-The workflow for just mapping is now much easier by using a tasking manager. Check the wiki and tasking manager homepages for more information.
+The workflow for just mapping is now much easier by using a tasking manager. Check the wiki and tasking manager homepages and the video tutorial for more information.
 
 Wiki.openstreetmap entry: http://wiki.openstreetmap.org/wiki/Canton_of_Bern_Address_Import
 Video tutorial: https://www.youtube.com/watch?v=pieUZrhfOdc&feature=youtu.be
 Tasking manager: http://tasks.osm.ch/project/3
+Video tutorial for tasking manager: https://www.youtube.com/watch?v=Sy0bwypPiqU
 by Stefan Berger (User:YBJazzer)
-18.01.2017
+24.02.2017
 
 
 Data Transformation
