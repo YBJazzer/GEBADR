@@ -10,7 +10,7 @@ Tasking manager: http://tasks.osmcanada.ca/project/48<br />
 Video tutorial for tasking manager: https://www.youtube.com/watch?v=Sy0bwypPiqU
 
 by Stefan Berger (User:YBJazzer)<br />
-18.01.2017
+24.02.2017
 
 
 ###Data Transformation
