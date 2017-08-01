@@ -3,7 +3,7 @@ area[name="Bern - Berne"];
 node[building](area);
 out meta;
 
-/* find building ways inside your current view on overpass-turbo.eu */
+/* find building polygons inside your current view on overpass-turbo.eu */
 way[building]({{bbox}});
 (._;>;);
 out meta;
